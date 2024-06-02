@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="small-cont">
+            <h1>Job Application</h1>
+            <hr>
+            <form action="">
+                <div class="form-container">
+                    <div class="form">
+                        <label for="text">First name</label>
+                        <input id="f-name" name="f-name" placeholder="first" />
+                    </div>
+
+                    <div class="form">
+                        <label for="text">Last Name</label>
+                        <input id="s-name" name="s-name" placeholder="Last" />
+                    </div>
+
+                    <div class="form">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="abc@gmail.com" />
+                    </div>
+
+                    <div class="form">
+                        <label for="position">What position are you apllying for</label>
+                        <select name="position" id="position">
+                            <option value="slectone">-slect one-</option>
+                            <option value="1nd">Fronetend</option>
+                            <option value="2nd">Backend</option>
+                            <option value="3rd">Fullstack</option>
+                            <option value="4th">Testing</option>
+                        </select>
+                    </div>
+
+                    <div class="form">
+                        <label for="url">Resume Link</label>
+                        <input type="url" id="url" name="url" placeholder="https://resume.com" />
+                    </div>
+                    
+                    <div class="form">
+                        <label for="file">Upload Resume</label>
+                        <input type="file" id="file" name="file">
+                    </div>
+                    <div class="form">
+                        <label for="date">Address</label>
+                        <textarea name="Address" id="Address" rows="3" cols="30"></textarea>
+                    </div>
+
+                    <div class="button">
+                        <button type="sumbit">Apply</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
