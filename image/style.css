@@ -1,0 +1,24 @@
+/* .text{
+    font-size: 450px;
+    background-image: url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+    
+}
+body{
+    background-color: black;
+    border: 1px solid black;
+} */
+
+img{
+    height: 300px;
+    width: 600px;
+    margin: 200px;
+    filter: grayscale(100%);
+}
+img:hover{
+    filter: grayscale(0%);
+}
